@@ -13,11 +13,10 @@
 
     <main>
         <section>
-
-            <fieldset>
-             <!-- DADOS PESSOAIS  -->
+          <form action="" method="get">
+            <!-- <fieldset>
             
-                <form action="" method="get">
+                
                     <label for="userName">Nome</label>
                     <input type="text" name="userName">
                 
@@ -48,11 +47,26 @@
 
                     <br>
                 
-                <button type="submit">Enviar</button>
                 
-                </form>
+            </fieldset> -->
+
+            <fieldset>
+                <legend>Perfil</legend>
+                    
+                    <p>Gênero:</p>
+
+                    <input type="radio" name="userGender" value="Feminino">
+                    <label for="userGender">Feminino</label>
+
+                    <input type="radio" name="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+
+                    <input type="radio" name="userGender" value="NotInformed">
+                    <label for="userGender">Prefiro não informar</label>
             </fieldset>
-            
+
+            <button type="submit">Enviar</button>
+         </form>
         </section>
     </main>
 
